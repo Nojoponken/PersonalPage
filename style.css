@@ -1,0 +1,109 @@
+body {
+  margin: 0px;
+}
+
+@font-face {
+  font-family: Grandstander;
+  src: url(Grandstander.ttf);
+}
+
+h1 {
+  font-family: Grandstander;
+  font-weight: lighter;
+  background-color: coral;
+  color: whitesmoke;
+  padding: 10px 10px 0px 10px;
+  margin: 0px;
+}
+h2 {
+  font-family: Grandstander;
+  font-weight: lighter;
+  font-size: 30px;
+  color: #110500;
+  text-align: center;
+  padding: 20px;
+  padding-bottom: 0px;
+  margin: 0px;
+}
+
+header nav {
+  margin-top: 0;
+  padding: 1px;
+  background-color: coral;
+}
+header a {
+  color: whitesmoke;
+}
+
+nav li {
+  display: inline-block;
+  padding-right: 16px;
+}
+
+a {
+  font-family: Grandstander;
+  font-weight: 700;
+  font-size: 20px;
+  color: #110500;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+img {
+  max-height: 300px;
+  max-width: 100%;
+}
+
+div {
+  padding: 2px;
+  background-color: coral;
+}
+div h2 {
+  color: whitesmoke;
+}
+
+article ul,
+div ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style-type: none;
+}
+article li,
+div li {
+  margin: 0 10px 0 10px;
+}
+
+li p {
+  max-width: 310px;
+  font-family: Grandstander;
+  color: #110500;
+}
+div li p {
+  color: whitesmoke;
+}
+
+footer {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 50px;
+  background-color: #110500;
+  color: whitesmoke;
+}
+
+section ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+section li {
+  margin: 100px;
+}
+
+section img {
+  height: 200px;
+  border: solid 2px gray;
+}
