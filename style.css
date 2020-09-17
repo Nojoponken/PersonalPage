@@ -104,5 +104,6 @@ section li {
 }
 
 section img {
+  max-height: 200px;
   border: solid 2px gray;
 }
