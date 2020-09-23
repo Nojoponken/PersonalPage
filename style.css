@@ -104,6 +104,10 @@ section li {
 }
 
 section img {
+<<<<<<< HEAD
   max-height: 200px;
+=======
+  max-height: 300px;
+>>>>>>> 6a0ad04068ca3bedbe68ce4004996fe1c8b33ed2
   border: solid 2px gray;
 }
