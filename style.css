@@ -3,12 +3,12 @@ body {
 }
 
 @font-face {
-  font-family: Grandstander;
-  src: url(Grandstander.ttf);
+  font-family: Valera-round;
+  src: url(VarelaRound-Regular.ttf);
 }
 
 h1 {
-  font-family: Grandstander;
+  font-family: Valera-round;
   font-weight: lighter;
   background-color: coral;
   color: whitesmoke;
@@ -16,7 +16,7 @@ h1 {
   margin: 0px;
 }
 h2 {
-  font-family: Grandstander;
+  font-family: Valera-round;
   font-weight: lighter;
   font-size: 30px;
   color: #110500;
@@ -41,7 +41,7 @@ nav li {
 }
 
 a {
-  font-family: Grandstander;
+  font-family: Valera-round;
   font-weight: 700;
   font-size: 20px;
   color: #110500;
@@ -78,7 +78,7 @@ div li {
 
 li p {
   max-width: 310px;
-  font-family: Grandstander;
+  font-family: Valera-round;
   color: #110500;
 }
 div li p {
@@ -86,7 +86,7 @@ div li p {
 }
 
 footer {
-  font-family: sans-serif;
+  font-family: Valera-round;
   text-align: center;
   padding: 50px;
   background-color: #110500;
