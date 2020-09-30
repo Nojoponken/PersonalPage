@@ -56,23 +56,25 @@ img {
   max-width: 100%;
 }
 
-div {
+.red {
   padding: 2px;
   background-color: coral;
 }
-div h2 {
+.red h2 {
   color: whitesmoke;
 }
 
-article ul,
-div ul {
+.red li p {
+  color: whitesmoke;
+}
+
+article ul {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   list-style-type: none;
 }
-article li,
-div li {
+article li {
   margin: 0 10px 0 10px;
 }
 
@@ -80,9 +82,6 @@ li p {
   max-width: 310px;
   font-family: Valera-round;
   color: #110500;
-}
-div li p {
-  color: whitesmoke;
 }
 
 footer {
