@@ -103,6 +103,8 @@ section li {
 }
 
 section img {
-  width: 30vw;
+  min-width: 30vw;
+  max-width: 30vw;
+  max-height: 20vw;
   border: solid 2px gray;
 }
